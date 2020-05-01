@@ -1,0 +1,68 @@
+body{
+    background-color: #005fba;
+    
+}
+#heading{
+    text-align: center;
+    background-color: #0087df;
+    
+
+}
+
+h2{
+    position: relative;
+    width: 95%;
+    block-size: 80%;
+    bottom: 15%;
+    color: whitesmoke;
+}
+.all_elements{
+    align-content: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    height: 100%;
+    overflow:hidden;
+    
+}
+.chat_body{
+    font-size: larger;
+    overflow-y: scroll;
+    background-color: #52c4da;
+    
+}
+
+.messages{
+    background-color: #2832c2;
+    margin: 2% 2% 2% 2%;
+}
+
+.text{
+    color: burlywood;
+    margin-left: 5%;
+}
+.new_message{
+    width: 100%;
+}
+.msg_form{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 70% 30%;
+    border: 5% red;
+    
+}
+
+
+input[type = "text"]{
+    position: relative;
+    width: 100%;
+    block-size: 100%;    
+}
+
+button,input[type= "submit"]{
+    position: relative;
+    width: 100%;
+    block-size: 100%;
+    background-color: purple;
+    color:wheat;
+}
